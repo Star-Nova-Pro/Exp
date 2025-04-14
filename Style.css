@@ -1,0 +1,47 @@
+/* Font dan reset dasar */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Mode gelap */
+body.dark-mode {
+  background-color: #121212;
+  color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Container utama */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Tombol toggle */
+.toggle-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.toggle-btn:hover {
+  background-color: #555;
+}
